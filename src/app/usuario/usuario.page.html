@@ -1,0 +1,46 @@
+<ion-header>
+
+  <ion-toolbar color="ion-header">
+
+    <ion-title color="ion-title" class="ion-title" >
+      MediTime
+    </ion-title>
+
+    <ion-buttons slot="start">
+      <ion-back-button class="back-button" defaultHref="/"></ion-back-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content [fullscreen]="true" color="fondo2">
+  <ion-item color="item">
+    <ion-avatar class="item-avatar" slot="start">
+      <img src="assets/icon/abuelo.jpeg"/>
+    </ion-avatar>
+    <ion-label>
+      <h1 style="color: black;">Nombre</h1>
+      <p style="font-size: medium;color: #4d4d4d;">Correo Electronico</p>
+    </ion-label>
+  </ion-item>
+
+  <ion-card style="background-color: #357fd3 ;">
+    <ion-card-header>
+      <ion-card-title class="ion-card-title" style="text-align: center;color:white;">Informacion Personal</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <div>
+        <p class="ion-card-title" style="color:white;">Edad: 78
+          <br/>
+          Sexo: Masculino
+          <br/>
+          Padecimientos: alta presion
+          <br/>
+          Telefono: 81-5555-5555
+        </p>
+      </div>
+    </ion-card-content>
+    
+  </ion-card>
+</ion-content>
